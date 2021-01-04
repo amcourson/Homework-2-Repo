@@ -6,10 +6,13 @@ body {
 #bio-image {
     float:left;
     padding-right: 20px;
+    max-width: 230px;
+    height: 230px;
+    
     
 }
 
-h1 {
+h1,h2 {
     font-family: 'Merriweather', serif;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -37,3 +40,5 @@ footer {
     width:1110px;
     background-color: transparent;
 }
+
+
