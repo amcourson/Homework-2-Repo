@@ -1,74 +1,124 @@
-Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application.
+Unit 08 Project 1 Homework: Professional Materials
+Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer-competitive.
 
-Directions
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+If you are opting out of career services, this is still a required assignment. Part of being a web developer means being a part of a community. Having a place to share your projects is necessary if you're applying for jobs, but it's also critical on your journey as a developer.
 
-Create the following files files: index.html, portfolio.html and contact.html.
+Requirements
+Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
 
-Using Bootstrap, develop your portfolio site with the following items:
+Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
 
-A navbar
+Submit an updated resume
 
-A responsive layout
+Submit an updated LinkedIn profile
 
-Responsive images
+Grading
+Requirement	Weight
+Portfolio	40%
+GitHub Profile	40%
+Resume	10%
+LinkedIn Profile	10%
+Instructions
+Updated Portfolio
+GitHub Profile
+Updated Resume
+Updated LinkedIn
+Updated Portfolio
+💁 Need help updating your Portfolio? Check out the Career Services milestone resources for online presence.
 
-The Bootstrap portfolio should minimize the use of media queries.
+Your updated portfolio should:
 
-Screenshots are provided as a reference in the Assets/Images folder. Your app does not need to be exactly like the images. Use Bootstrap to create a similar, responsive layout.
+Display your full name, email, and phone number
 
-Hints
-Use Bootstrap's grid system (containers, rows, and columns).
+Have links to your GitHub profile and LinkedIn profile
 
-On an xs screen, content should take up the entire screen. On sm and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+Have a link to a downloadable PDF of your resume
 
-Use an HTML validation service to ensure that each page has valid HTML.
+Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
 
-Minimum Requirements
-Functional, deployed application
+Project title
 
-GitHub repository with README describing the project
+Link to the deployed version
 
-Navbar must be consistent on each page.
+Link to the GitHub repository
 
-Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+Screenshot of the deployed application
 
-All links must work.
+Have a polished, mobile-responsive user interface.
 
-Must use semantic html.
+Design
+Unfortunately, this is where it gets a little bit subjective. Your site should look "polished." Here are a few guidelines on what that means:
 
-Each page must have valid and correct HTML. (use a validation service)
+Mobile-first design
 
-Must contain your personalized information. (bio, name, images, links to social media, etc.)
+Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
 
-Must properly utilize Bootstrap components and grid system.
+Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
-Bonus
-Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation).
-Commit Early and Often
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+Updated GitHub Profile
+Employers (and potential collaborators) will look at your GitHub profile, so put your best face forward.
 
-Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+Your GitHub profile must contain at least the following items:
 
-Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+Professional profile picture
 
-Follow these guidelines for committing:
+A photo or an image other than the default Github identicon. (a semi-professional to professional photo or an avatar photo are preferred)
+Biography
 
-Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+Your current location
 
-Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+Email address
 
-Don't commit half-done work, for the sake of your collaborators (and your future self!).
+Link to your deployed portfolio
 
-Test your application before you commit to ensure functionality at every step in the development process.
+At least 2 pinned repositories:
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
+Navigate to GitHub and go to your profile.
 
-Submission on BCS
-You are required to submit the following:
+Click "Customize your pins"
 
-The URLs of the deployed applications
+Click the checkboxes for your project and 2-3 homework assignments that you would like to share
 
-The URLs of the GitHub repositories
+Follow a few of your classmates. They are the beginning of your professional network and being a developer is as much about being a part of the community as it is writing code.
 
+README files. Every pinned project should contain a README file with:
+
+Title of app
+Live link to deployed app
+List of technologies used
+1-2 sentences explaining what the app is
+2-3 Screenshots / gifs of the app
+License (usually MIT)
+Contact information for you and any collaborators
+Commit history. Every pinned repository should have at least 20 commits.
+
+3. Updated Resume
+💁 Need help building a resume? Check out the Career Services milestone resources.
+
+Submit a clear, concise, and compelling resume, tailored to the type of job you’re looking for.
+
+Your resume should include:
+
+a heading with your name, phone number, professional email address, links to LinkedIn, portfolio and GitHub
+
+a technical skills section, with all programming languages and technologies listed
+
+3 of your strongest projects/homework assignments with brief description, languages used, and URL
+
+4. Updated LinkedIn
+💁 Need help updating your LinkedIn? Check out the Career Services milestone resources for online presence.
+
+Update your LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github and portfolio.
+
+⭐ 5. For Job-Seeking Students (BONUS)
+If you are a job-seeking student, then getting yourself marked as employer-ready is an important step to take because you'll get:
+
+added to our employer referral list, where we'll help match you with employers for interviews
+
+exclusive access to workshops for employer-ready students
+
+a statistically higher success rate in your job search
+
+So if you're going to be looking for a job at the end of your boot camp, go ahead and submit these updated items to your Career Materials Advisor (formerly Profile Coach) via BootCampSpot.
+
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
