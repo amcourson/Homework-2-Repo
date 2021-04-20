@@ -13,83 +13,60 @@
 </head>
 
 <body>
-
-
+<nav class="nav">
   <div class="container">
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
-
-      <a class="navbar-brand" href="#">Angelica Marie Courson's Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-
-
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-
-
-
-
-          </li>
-        </ul>
+      <div class="logo">
+          <a href="#">Your Logo</a>
       </div>
-    </nav>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lrg-1">
-
-          <style>
-            h1 {
-              text-align: center;
-            }
-          </style>
-        </div>
+      <div id="mainListDiv" class="main_list">
+          <ul class="navlinks">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>              
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
       </div>
-    </div>
+      <span class="navTrigger">
+          <i></i>
+          <i></i>
+          <i></i>
+      </span>
+  </div>
+</nav>
 
+<section class="home">
+</section>
+<div style="height: 1000px">
+  <!-- just to make scrolling effect possible -->
+  
+    <h1>About me</h1>
+    <img src="composite.png" alt="Your Image" id="bio-image" align="left">
+    <p>Hello! My name is Angelica Marie Courson and I am a Texas native. I grew up in Austin,Texas and currently live in Round Rock, Texas with my family. I 
+      graduated from the Univeristy of Missouri, Columbia in May of 2020 with a Degree in Communication and a minor in Textile and Apparel Managment. I am currently
+      participating in the Univerity of Texas coding bootcamp learning about becoming a full stack web developer. In my free time I enjoy reading, painting and hanging out with my
+      cat, Sheba and my two dogs Red and Rex.
+    </p>
+</div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lrg-8">
-          <h1>About me</h1>
-          <img src="composite.png" alt="Your Image" id="bio-image" align="left">
-          <p>Hi, my name is Angelica Marie Courson and I am a Texas native. I grew up in Austin,Texas and currently live in Round Rock, Texas with my family. I 
-            graduated from the Univeristy of Missouri, Columbia in May of 2020 with a Degree in Communication and a minor in Textile and Apparel Managment. I am currently
-            participating in the Univerity of Texas coding bootcamp learning about becoming a full stack web developer. In my free time I enjoy reading, painting and hanging out with my
-            cat, Sheba and my two dogs Red and Rex.
-          </p>
-          <hr>
-        </div>
-      </div>
-    </div>
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
 
-
-
-
-
-    <footer class="container text-center" style="padding:0;width:1110px;background-color:transparent">
-      <p>All work is owned by Angelica Courson</p>
-    </footer>
-    </div>
-
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+  $(window).scroll(function() {
+      if ($(document).scrollTop() > 50) {
+          $('.nav').addClass('affix');
+          console.log("OK");
+      } else {
+          $('.nav').removeClass('affix');
+      }
+  });
+</script>
 </body>
-
 </html>
