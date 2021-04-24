@@ -27,6 +27,10 @@ p{
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
+    text-align: center;
+}
+#portfolio{
+    text-align: center;
 }
 
 .col-lrg-8 {
@@ -42,13 +46,26 @@ width: 500px;
 height: 300px;
 image-orientation:center;
 
+
+
 }
 
 #website3{
-width: 500px;
- height: 300px;
+    width: 500px;
+    height: 300px;
+    image-orientation:center;
 
-    }
+ }
+#website4{
+    width: 500px;
+    height: 300px;
+    image-orientation:center;
+}
+#website5{
+    width: 500px;
+    height: 300px;
+    image-orientation:center;
+}
 
 #row{
     align-items:center;
@@ -56,6 +73,15 @@ width: 500px;
 
 h3{
     text-align: center;
+}
+
+#text{ font-family: 'Libre Baskerville', serif;
+    background-color:none;
+    font-size: large;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+
 }
 
 footer {

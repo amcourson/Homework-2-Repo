@@ -11,50 +11,82 @@
       
       <body>
       
-        
-        <div class="container">
-      
-         
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      
-            
-            <a class="navbar-brand" href="#">Angelica Marie Courson's Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-      
-              
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ml-auto">
-      
-               
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-      
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-      
-             
-               
-      
-                </li>
-              </ul>
+        <body>
+          <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="logo_size.jpg"></a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                      </li>              
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
             </div>
-          </nav>   
-          <style>
-            h1 {text-align: center;}
-            p {text-align: center;}
+          </nav>
+          <section class="home">
+          </section>
+          <div style="height: 1000px">
+            <!-- just to make scrolling effect possible -->
             
-        </style>
-        <p>Find me on <a href="https://github.com/amcourson?tab=repositories" >github </a></p>
-        <p>Below are some projects I have worked on during my time as a student in UT's coding bootcamp.</p>
-        <div class="container1">
+              <h1>Portfolio</h1>
+              <p>Find me on <a href="https://github.com/amcourson?tab=repositories" >github </a></p>
+               <p> Below are some projects I have worked on during my time as a student in UT's coding bootcamp. </p>
+              <p>
+                 <a href="https://amcourson.github.io/Homework-1-Repo/"> 
+                <img src="./assets/website1.png" alt="website1" id="website1"  ></P>
+              <p>
+                <a href="https://amcourson.github.io/Homework-3-Repo/"> 
+                  <img src="./assets/website3.png" alt="website1" id="website3"  >
+              </p>
+              <p>
+                <a href="https://riraq.github.io/Nonprofit_Locator/" ></a>
+                  <img src="./assets/nonprofitlocator.png" alt="website4" id="website4"  >
+              </p>
+              <p>
+                <a href="https://serene-oasis-98788.herokuapp.com/" ></a>
+                  <img src="./assets/eventplanner.png" alt="website5" id="website5"  >
+              </p>
+
+          </div>
+         
+          <!-- Jquery needed -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script src="js/scripts.js"></script>
+          
+          <!-- Function used to shrink nav bar removing paddings and adding black background -->
+          <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+          </script>
+          </body>
+          </html>
+
+
+
+
+        <!-- <p>Find me on <a href="https://github.com/amcourson?tab=repositories" >github </a></p>
+        <p>Below are some projects I have worked on during my time as a student in UT's coding bootcamp.</p> -->
+        <!-- <div class="container1">
           <div class="row" >
             <div class="col-med-2">
           <a href="https://amcourson.github.io/Homework-1-Repo/"> 
@@ -75,10 +107,8 @@
           
           
         
-        <footer class="container text-center" style="padding:0;width:1110px">
-          <p>All work is owned by Angelica Courson</p>
-        </footer>
-        </div>
+        
+        </div> -->
     
     </body>
     
