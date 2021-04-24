@@ -1,47 +1,81 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-      </head>
-      
-      <body>
-        <section class="home">
-        </section>
-        <div style="height: 1000px">
-          <!-- just to make scrolling effect possible -->
-          
-                
-       
-           
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="logo_size.jpg"></a>
         </div>
-        
-        <!-- Jquery needed -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="js/scripts.js"></script>
-        
-        <!-- Function used to shrink nav bar removing paddings and adding black background -->
-        <script>
-          $(window).scroll(function() {
-              if ($(document).scrollTop() > 50) {
-                  $('.nav').addClass('affix');
-                  console.log("OK");
-              } else {
-                  $('.nav').removeClass('affix');
-              }
-          });
-        </script>
-        </body>
-        </html>
-        
-        
-         
-      </div>
-  </body>
-  
-  </html> 
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+  </nav>
+  <section class="home">
+  </section>
+  <div style="height: 1000px">
+    <!-- just to make scrolling effect possible -->
+    <h1>Contact</h1>
+    <p> Contact me via <a href="https://www.linkedin.com/in/angelica-courson-6b6895130/">LinkedIn</a></p>
+    <p> or:
+    <ul> Phone: Please Email for phone number</ul>
+    <ul> Email: amcourson14@gmail.com </ul>
+    <ul>Resume:<a href="./assets/resume.pdf"> Click here to download a PDF of my Resume</a> </ul>
+    <ul> Current Location: Austin </ul>
+    </p>
+
+
+
+  </div>
+
+  <!-- Jquery needed -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+  </script>
+</body>
+
+</html>
+
+
+
+</div>
+</body>
+
+</html>

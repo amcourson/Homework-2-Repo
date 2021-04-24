@@ -185,6 +185,19 @@ body {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+ul{
+ text-align: center;
+ font-family: 'Libre Baskerville', serif;
+ background-color:none;
+ font-size: large;
+}
+
+li{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    background-color:none;
+    font-size: large;
+}
 
 
 /* Media qurey section */
